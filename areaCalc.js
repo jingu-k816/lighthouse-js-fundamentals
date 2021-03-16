@@ -2,6 +2,7 @@ function calculateRectangleArea(length, width){
   let rectangle;
   rectangle = length * width;
 
+  //conditional statement to validate if any of the input is less than 0 will return undefined;
   if(length < 0 || width < 0){
     return undefined;
   }
@@ -12,6 +13,7 @@ function calculateTriangleArea(base, height){
   let triangle;
   triangle = (base * height) / 2;
 
+  //conditional statement to validate if any of the input is less than 0 will return undefined;
   if(base < 0 || height < 0){
     return undefined;
   }
@@ -22,6 +24,7 @@ function calculateCircleArea(radius){
   let circle;
   circle = Math.PI * radius * radius;
 
+  //conditional statement to validate if any of the input is less than 0 will return undefined;
   if(radius < 0){
     return undefined;
   }
